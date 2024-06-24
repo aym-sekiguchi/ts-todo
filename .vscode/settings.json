@@ -1,0 +1,6 @@
+{
+  "cSpell.ignoreWords": ["TRPC", "tailwindcss"],
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
