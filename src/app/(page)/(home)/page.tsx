@@ -3,7 +3,8 @@ import { api } from "~/trpc/server";
 import { Headline } from "../../_components/src/headline";
 import { Form } from "./_form";
 
-export default async function Home() {
+export const runtime = "edge";
+async function Home() {
   const hello = await api.post.hello({ text: "from tRPC" });
   const session = await getServerAuthSession();
 
